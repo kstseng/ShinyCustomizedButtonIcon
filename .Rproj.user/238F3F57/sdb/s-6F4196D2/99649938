@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\n\nshinyUI(pageWithSidebar(\n  headerPanel(\"actionButton test\"),\n  sidebarPanel(\n    # customized icon: puts png in www folder\n    HTML('<button id=\"goButton\" type=\"button\" class=\"btn btn-default action-button\">\n         <img src=\"spade_icon.png\" height=\"20\" width=\"20\"/>Button 1</button>')\n    ,\n    # default button\n    actionButton(\"goButton\", \"Button 2\")\n  ),\n  mainPanel(\n    verbatimTextOutput(\"nText\")\n  )\n))",
+    "created" : 1467471944535.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1803364264",
+    "id" : "99649938",
+    "lastKnownWriteTime" : 1467476327,
+    "last_content_update" : 1467476327584,
+    "path" : "~/Documents/CustomIcon/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
